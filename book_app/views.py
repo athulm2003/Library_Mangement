@@ -10,5 +10,5 @@ def Book_list(request):
 def Book_details(request):
     return HttpResponse("Book Name: Django | Author: William S.Vincent")
 def contact_information(request):
-    return HttpResponse("Contact us at library@gmail.com")
+    return HttpResponse("Contact us at library@gmail.com") 
 # Create your views here.
